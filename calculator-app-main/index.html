@@ -5,16 +5,60 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Calculator app</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  
 </head>
 <body>
+  <header>
+    <h1>Calc</h1>
+    <div class="tema">
+      <p>theme</p>
+      <div class="btsNuber">
+        <label for="itema1">1</label>
+        <label for="itema2">2</label>
+        <label for="itema3">3</label>
+      </div>
+      <div class="btsTema">
+        <input type="radio" name="tema" id="itema1">
+        <input type="radio" name="tema" id="itema2">
+        <input type="radio" name="tema" id="itema3">
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="screen"></div>
+    <div class="div__Number">
+      <div>
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+        <button>DEL</button>
+      </div>
+      <div>
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button>+</button>
+      </div>
+      <div>
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>-</button>
+      </div>
+      <div>
+        <button>.</button>
+        <button>0</button>
+        <button>/</button>
+        <button>x</button>
+      </div>
+      <div>
+        <button>RESET</button>
+        <button>=</button>
+      </div>
+    </div>
+  </main>
 
 
   
