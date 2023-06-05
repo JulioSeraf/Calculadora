@@ -71,6 +71,10 @@ main .screen{
     border-radius: 15px;
     font-size: 3em;
     text-align: right;
+
+    word-wrap: break-word;
+    
+    
 }
 main .div__number{
     display: flex;

@@ -6,7 +6,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="temas/style-Tema3.css">
+  <link id="linkTema" rel="stylesheet" href="temas/style-Tema1.css">
   <title>Frontend Mentor | Calculator app</title>
   
 </head>
@@ -16,47 +16,47 @@
     <p>THEME</p>
     <div class="tema">
       <div class="btsNuber">
-        <label for="itema1">1</label>
-        <label for="itema2">2</label>
-        <label for="itema3">3</label>
+        <label class="tema" value="1" for="itema1">1</label>
+        <label class="tema" value="2" for="itema2">2</label>
+        <label class="tema" value="3"  for="itema3">3</label>
       </div>
       <div class="btsTema">
-        <input  class="input__Tema1-Color" type="radio" name="tema" id="itema1" checked>
-        <input  class="input__Tema1-Color" type="radio" name="tema" id="itema2">
-        <input  class="input__Tema1-Color" type="radio" name="tema" id="itema3">
+        <input  class="tema" value="1" type="radio" name="tema" id="itema1" checked>
+        <input  class="tema" value="2" type="radio" name="tema" id="itema2">
+        <input  class="tema" value="3"  type="radio" name="tema" id="itema3">
       </div>
     </div>
   </header>
   <main>
-    <div class="screen">0</div>
+    <div class="screen"></div>
     <div class="div__number">
       <div class="div__but">
-        <button>7</button>
-        <button>8</button>
-        <button>9</button>
-        <button class="reset-delete">DEL</button>
+        <button class="bts">7</button>
+        <button class="bts">8</button>
+        <button class="bts">9</button>
+        <button class="reset-delete bts">DEL</button>
       </div>
       <div class="div__but">
-        <button>4</button>
-        <button>5</button>
-        <button>6</button>
-        <button>+</button>
+        <button class="bts">4</button>
+        <button class="bts">5</button>
+        <button class="bts">6</button>
+        <button class="bts">+</button>
       </div>
       <div class="div__but">
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-        <button>-</button>
+        <button class="bts">1</button>
+        <button class="bts">2</button>
+        <button class="bts">3</button>
+        <button class="bts">-</button>
       </div>
       <div class="div__but">
-        <button>.</button>
-        <button>0</button>
-        <button>/</button>
-        <button>x</button>
+        <button class="bts">.</button>
+        <button class="bts">0</button>
+        <button class="bts">/</button>
+        <button class="bts">x</button>
       </div>
       <div class="div__but">
-        <button  class="res-reset reset-delete" >RESET</button>
-        <button class="res-reset" id="igual">=</button>
+        <button class="res-reset reset-delete bts" >RESET</button>
+        <button class="res-reset bts" id="igual">=</button>
       </div>
     </div>
   </main>
@@ -64,5 +64,6 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Julio Serafim</a>.
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
