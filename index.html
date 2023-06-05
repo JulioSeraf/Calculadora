@@ -6,6 +6,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="temas/style-Tema3.css">
   <title>Frontend Mentor | Calculator app</title>
   
 </head>
@@ -20,20 +21,20 @@
         <label for="itema3">3</label>
       </div>
       <div class="btsTema">
-        <input type="radio" name="tema" id="itema1" checked>
-        <input type="radio" name="tema" id="itema2">
-        <input type="radio" name="tema" id="itema3" >
+        <input  class="input__Tema1-Color" type="radio" name="tema" id="itema1" checked>
+        <input  class="input__Tema1-Color" type="radio" name="tema" id="itema2">
+        <input  class="input__Tema1-Color" type="radio" name="tema" id="itema3">
       </div>
     </div>
   </header>
   <main>
-    <div class="screen">333</div>
+    <div class="screen">0</div>
     <div class="div__number">
       <div class="div__but">
         <button>7</button>
         <button>8</button>
         <button>9</button>
-        <button id="delete">DEL</button>
+        <button class="reset-delete">DEL</button>
       </div>
       <div class="div__but">
         <button>4</button>
@@ -54,8 +55,8 @@
         <button>x</button>
       </div>
       <div class="div__but">
-        <button  class="res-reset reset" >RESET</button>
-        <button class="res-reset">=</button>
+        <button  class="res-reset reset-delete" >RESET</button>
+        <button class="res-reset" id="igual">=</button>
       </div>
     </div>
   </main>

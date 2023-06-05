@@ -1,0 +1,35 @@
+body{
+    background-color:hsl(268, 75%, 9%);
+    color: hsl(52, 100%, 62%);
+}
+header .btsTema{
+    background-color:hsl(223, 31%, 20%) ;
+}
+input[type="radio"]:checked{
+    background-color:hsl(176, 100%, 44%);
+}
+main .screen{
+    background-color:hsla(268, 71%, 19%, 0.966);
+   
+}
+main .div__number{
+    background-color: hsla(268, 71%, 19%, 0.966);
+    
+}
+main .div__but > button{
+    background-color: hsl(268, 55%, 40%);
+    box-shadow: 0 3px 0   hsl(285, 91%, 52%) ;
+    color:hsl(52, 100%, 62%) ;
+   
+}
+main .div__but > .reset-delete{
+    box-shadow: 0 3px 0 hsl(285, 91%, 52%);
+    background-color: hsl(281, 89%, 26%);
+    color: hsl(0, 0%, 100%);
+}
+main .div__but > #igual{
+    background-color:hsl(176, 100%, 44%);
+    box-shadow: 0 3px 0 hsl(177, 92%, 70%);
+   
+    color: black;
+}
