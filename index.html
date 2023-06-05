@@ -12,59 +12,56 @@
 <body>
   <header>
     <h1>Calc</h1>
+    <p>THEME</p>
     <div class="tema">
-      <p>theme</p>
       <div class="btsNuber">
         <label for="itema1">1</label>
         <label for="itema2">2</label>
         <label for="itema3">3</label>
       </div>
       <div class="btsTema">
-        <input type="radio" name="tema" id="itema1">
+        <input type="radio" name="tema" id="itema1" checked>
         <input type="radio" name="tema" id="itema2">
-        <input type="radio" name="tema" id="itema3">
+        <input type="radio" name="tema" id="itema3" >
       </div>
     </div>
   </header>
   <main>
     <div class="screen">333</div>
-    <div class="div__Number">
-      <div>
+    <div class="div__number">
+      <div class="div__but">
         <button>7</button>
         <button>8</button>
         <button>9</button>
-        <button>DEL</button>
+        <button id="delete">DEL</button>
       </div>
-      <div>
+      <div class="div__but">
         <button>4</button>
         <button>5</button>
         <button>6</button>
         <button>+</button>
       </div>
-      <div>
+      <div class="div__but">
         <button>1</button>
         <button>2</button>
         <button>3</button>
         <button>-</button>
       </div>
-      <div>
+      <div class="div__but">
         <button>.</button>
         <button>0</button>
         <button>/</button>
         <button>x</button>
       </div>
-      <div>
-        <button>RESET</button>
-        <button>=</button>
+      <div class="div__but">
+        <button  class="res-reset reset" >RESET</button>
+        <button class="res-reset">=</button>
       </div>
     </div>
   </main>
-
-
-  
-  <div class="attribution">
+  <footer>
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    Coded by <a href="#">Julio Serafim</a>.
+  </footer>
 </body>
 </html>
