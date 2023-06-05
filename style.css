@@ -46,7 +46,7 @@ header .btsNuber{
 input[type="radio"]{
     appearance: none;
     width: 1em;
-    margin: 4px;
+    margin: 4px 1px;
     height: 1em;
 }
 input[type="radio"]:checked{
