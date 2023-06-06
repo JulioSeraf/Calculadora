@@ -29,3 +29,6 @@ main .div__but > .reset-delete{
 main .div__but > .igual{
     background-color: rgba(255, 0, 0, 0.623);
 }
+footer{
+    color: blue;
+}
